@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #beadae;
+  font-family: 'S-CoreDream-3Light';
+}
+
+.main-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #8f646c;
+  text-shadow: #ebdfe0 2px 2px 2px;
+  margin-bottom: 5px;
+}
+
+.search-box {
+  position: relative;
+  left: -10px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.search-bar {
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 18px;
+  box-shadow: grey 2px 2px 2px;
+}
+
+.search-icon {
+  position: absolute;
+  width: 20px;
+  top: 10px;
+  right: -10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.user-box {
+  display: flex;
+  width: 90%;
+  border: 1px solid #795c62;
+  padding: 15px;
+  min-height: 400px;
+}
+
+.right-section {
+  width: 100%;
+  padding: 20px;
+}
+
+.user-numbers {
+  display: flex;
+  justify-content: space-evenly;
+  height: 2em;
+  background-color: white;
+  border: 1px solid #795c62;
+  border-radius: 20px;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.user-img {
+  width: 400px;
+  border-radius: 30px;
+}
+
+.user-info-container {
+  color: #534544;
+  font-size: 28px;
+  line-height: 200%;
+}
+
+.user-info {
+  border-bottom: 2px dashed white;
+  text-shadow: grey 1px 1px 1px;
+}
