@@ -92,3 +92,24 @@ body {
   border-bottom: 2px dashed white;
   text-shadow: grey 1px 1px 1px;
 }
+
+.error {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-head {
+  font-size: 80px;
+  color: red;
+  font-weight: 900;
+}
+
+.error-msg {
+  font-size: 30px;
+}
